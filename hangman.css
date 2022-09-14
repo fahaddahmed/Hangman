@@ -1,0 +1,101 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #23395d;
+}
+
+#leftSide{
+  float: left;
+  padding-left: 250px;
+}
+
+#Letters{
+  display: inline-block;
+  color: white;
+  font-weight: bold;
+  font-size: 150%;
+  font-family: "Courier New", monospace;
+}
+
+#letters{
+  text-align:center;
+}
+
+#Guessesleft{
+  font-size: 100%;
+  position: absolute;
+  color: white;
+  font-family: "Courier New", monospace;
+  font-weight: bold;
+  top: 500px;
+  left: 220px;
+}
+
+#para{
+  display: inline-block;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 50px;
+}
+
+#blanks-div {
+  color: white;
+  font-family: "Courier New", monospace;
+  float: right;
+  padding-right: 250px;
+  font-weight: bold;
+  font-size: 150%
+}
+
+#z, #y, #x, #w, #v, #u, #t, #s, #r, #q, #p, #o, #n, #m, #l, #k, #j, #i, #h, #g, #f, #e, #d, #c, #b, #a {
+  background-color: #152238;
+  border: solid transparent;
+  border-radius: 16px;
+  border-width: 0 0 4px;
+  box-sizing: border-box;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: din-round,sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: .8px;
+  line-height: 20px;
+  outline: none;
+/*   overflow: visible; */
+  padding: 13px 16px;
+  text-transform: uppercase; 
+}
+
+h1{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 250%;
+  font-family: "Courier New", monospace;
+}
+
+#buttons1{
+  margin: auto;
+  width: 100%;
+  text-align: center;
+  float: left;
+  padding: 10px
+  
+}
+
+#ltrGuessed{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 150%;
+  font-family: "Courier New", monospace;
+}
+
+#intro{
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 150%;
+  font-family: "Courier New", monospace;
+}
